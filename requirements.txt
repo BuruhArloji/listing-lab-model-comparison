@@ -1,0 +1,5 @@
+streamlit>=1.45,<2
+numpy>=2.0,<3
+scikit-learn>=1.5,<2
+fastembed>=0.7,<1
+requests>=2.32,<3
