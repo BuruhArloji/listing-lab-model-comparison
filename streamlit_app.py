@@ -221,6 +221,6 @@ with st.container(border=True):
     if result := st.session_state.get("comparison"):
         st.markdown("**Perbandingan sejajar** · geser tabel ke samping untuk melihat semua model.")
         st.markdown(build_matrix(result), unsafe_allow_html=True)
-        st.caption("BGE tanpa label menunjukkan kemiripan, bukan probabilitas terkalibrasi. Model terlatih meniru pseudo-label Decider; ini belum mengukur accuracy terhadap label manusia. Biaya dan estimasi request berubah mengikuti panjang teks dan harga model.")
+        st.caption("BGE tanpa label menunjukkan kemiripan, bukan probabilitas terkalibrasi. Model lokal dilatih dari pseudo-label Decider V1, sedangkan kolom Perplexity memakai V1.1; ini belum mengukur accuracy terhadap label manusia. Biaya dan estimasi request berubah mengikuti panjang teks dan harga model.")
     else:
         st.info("Isi formulir lalu tekan **Uji listing**. Hasil setiap model akan muncul di sini.")
