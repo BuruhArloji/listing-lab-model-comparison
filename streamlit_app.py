@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent
 PUBLIC_LABELS = ROOT / "public_data" / "teacher_labels.jsonl"
 MODEL_LABELS = {
     "jev": "Jev 1.13",
-    "decider": "Perplexity Decider",
+    "decider": "Perplexity Decider V1.1",
     "openai": "OpenAI GPT-6 Luna",
     "clef": "Cloudflare Clef",
 }

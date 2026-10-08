@@ -2,6 +2,8 @@
 
 This folder contains only the public app, dependencies, configuration, and 926 synthetic Perplexity Decider training labels. It excludes the five manual labels and the local benchmark results.
 
+The local models were trained on labels generated with Decider V1. The live Perplexity comparison uses Decider V1.1 because V1 currently has no active OpenRouter endpoint. Treat differences between the local models and the live Decider as a model-version change as well as a method difference.
+
 ## Local preview
 
 ```powershell
